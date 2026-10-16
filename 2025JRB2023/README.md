@@ -78,19 +78,21 @@ The complete run is computationally expensive. The submitted `results/` director
 
 ## Adapter artifacts
 
-For private grading convenience, this ZIP contains:
+Adapter weights are not stored in this repository. If `adapters/<name>` is missing, the scripts download it from the Hugging Face Hub.
 
-```text
-adapters/best_sanitizer/
-adapters/victim_raw/
-adapters/victim_san/
-```
+| CLI path | Hugging Face repo |
+| --- | --- |
+| `adapters/A1` | https://huggingface.co/TarunExhaustice/llm-a1-a1 |
+| `adapters/A2` | https://huggingface.co/TarunExhaustice/llm-a1-a2 |
+| `adapters/A3` | https://huggingface.co/TarunExhaustice/llm-a1-a3 |
+| `adapters/A4` | https://huggingface.co/TarunExhaustice/llm-a1-a4 |
+| `adapters/A5` | https://huggingface.co/TarunExhaustice/llm-a1-a5 |
+| `adapters/A6` | https://huggingface.co/TarunExhaustice/llm-a1-a6 |
+| `adapters/best_sanitizer` | https://huggingface.co/TarunExhaustice/llm-a1-best-sanitizer |
+| `adapters/victim_raw` | https://huggingface.co/TarunExhaustice/llm-a1-victim-raw |
+| `adapters/victim_san` | https://huggingface.co/TarunExhaustice/llm-a1-victim-san |
 
-Part-A A1–A6 configs/metrics and a weight manifest are in `adapters_metadata/`. The TA-accessible adapter mirror used for grading is:
-
-https://drive.google.com/drive/folders/16weDn932DanHp4oOCFelG0h9bcHRDTx4?usp=drive_link
-
-The same link is recorded in `ADAPTER_LINKS.txt` and in the final report. Do not publish victim adapters or extraction outputs publicly.
+Part-A configs and the weight manifest remain in `adapters_metadata/`.
 
 ## Important result notes
 
