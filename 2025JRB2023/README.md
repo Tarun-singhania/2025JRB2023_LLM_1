@@ -6,7 +6,7 @@ ELL8299/COL8383/COL873: Trustworthy Large Language Models, Semester I 2026–27.
 **Enrollment No.:** 2025JRB2023  
 **Department:** Robotics (M.Tech)
 
-This ZIP is the final submission bundle. It contains the required source files, final result artifacts, the <=5-page PDF report, reproducibility scripts, and selected adapter artifacts. The professor-supplied `data/` corpus is intentionally **not** included.
+This ZIP is the final submission bundle. It contains the required source files, final result artifacts, the <=5-page PDF report, reproducibility scripts. The professor-supplied `data/` corpus is intentionally **not** included.
 
 ## Required submission files
 
