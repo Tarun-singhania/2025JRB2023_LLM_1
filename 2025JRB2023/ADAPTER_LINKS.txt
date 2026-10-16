@@ -1,0 +1,16 @@
+TA-ACCESSIBLE ADAPTER LINK
+==========================
+
+Student: Tarun Kumar
+Enrollment No.: 2025JRB2023
+Department: Robotics (M.Tech)
+
+TA-accessible Google Drive folder:
+https://drive.google.com/drive/folders/16weDn932DanHp4oOCFelG0h9bcHRDTx4?usp=drive_link
+
+Recommended contents of the shared folder:
+- Part-A adapters A1-A6 (at minimum adapter_model.safetensors + adapter_config.json)
+- selected best_sanitizer (A3)
+- victim_raw and victim_san adapters, if requested by the course staff
+
+The submission ZIP already includes the selected A3/best_sanitizer and the two Part-C victim adapters for private grading convenience.

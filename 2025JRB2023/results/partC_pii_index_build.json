@@ -1,0 +1,7 @@
+{
+  "construction": "union of local regex and Presidio detections on one raw text per distinct doc_id",
+  "n_docs": 5020,
+  "n_docs_with_detected_pii": 4365,
+  "n_detected_entries": 38208,
+  "limitation": "detector-derived index; recovery rate therefore inherits detector false positives and false negatives"
+}

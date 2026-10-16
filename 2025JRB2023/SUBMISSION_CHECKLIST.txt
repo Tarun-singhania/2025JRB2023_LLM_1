@@ -1,0 +1,22 @@
+FINAL SUBMISSION CHECKLIST
+==========================
+
+Student: Tarun Kumar
+Enrollment No.: 2025JRB2023
+Department: Robotics (M.Tech)
+
+[PASS] Final ZIP filename: 2025JRB2023.zip
+[PASS] report.pdf is exactly 5 pages.
+[PASS] Student name, enrollment number and department are present in report.pdf.
+[PASS] TA-accessible adapter link is present in report.pdf, README.md and ADAPTER_LINKS.txt.
+[PASS] README.md, requirements.txt and run_all.sh are present.
+[PASS] Required src/ CLI files are present.
+[PASS] Required results/ files are present.
+[PASS] No professor corpus files are bundled.
+[PASS] No base-model weights are bundled.
+[PASS] No wandb/run directories are bundled.
+[PASS] No raw Part-C generation dump is bundled.
+[PASS] ZIP size is below 500 MB.
+
+TA adapter link:
+https://drive.google.com/drive/folders/16weDn932DanHp4oOCFelG0h9bcHRDTx4?usp=drive_link

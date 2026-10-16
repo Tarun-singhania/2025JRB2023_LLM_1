@@ -1,0 +1,280 @@
+{
+  "n_rows": 8007,
+  "n_distinct_doc_ids": 5020,
+  "metadata_preserved": true,
+  "row_order_preserved": true,
+  "decode_config": {
+    "base_model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "adapter_path": "adapters/best_sanitizer",
+    "do_sample": false,
+    "max_new_tokens": 260,
+    "seed": 42,
+    "prompt_source": "src/sanitize_eval.py::build_messages"
+  },
+  "n_changed_text_rows": 7251,
+  "n_unchanged_text_rows": 756,
+  "n_hit_max_new_tokens": 13,
+  "hit_max_new_tokens_rate": 0.0016235793680529536,
+  "hit_cap_rows": [
+    {
+      "index": 310,
+      "doc_id": "doc_00089",
+      "is_canary": false,
+      "generated_tokens": 260
+    },
+    {
+      "index": 311,
+      "doc_id": "doc_00089",
+      "is_canary": false,
+      "generated_tokens": 260
+    },
+    {
+      "index": 312,
+      "doc_id": "doc_00089",
+      "is_canary": false,
+      "generated_tokens": 260
+    },
+    {
+      "index": 313,
+      "doc_id": "doc_00089",
+      "is_canary": false,
+      "generated_tokens": 260
+    },
+    {
+      "index": 314,
+      "doc_id": "doc_00089",
+      "is_canary": false,
+      "generated_tokens": 260
+    },
+    {
+      "index": 315,
+      "doc_id": "doc_00089",
+      "is_canary": false,
+      "generated_tokens": 260
+    },
+    {
+      "index": 316,
+      "doc_id": "doc_00089",
+      "is_canary": false,
+      "generated_tokens": 260
+    },
+    {
+      "index": 317,
+      "doc_id": "doc_00089",
+      "is_canary": false,
+      "generated_tokens": 260
+    },
+    {
+      "index": 4590,
+      "doc_id": "doc_02008",
+      "is_canary": false,
+      "generated_tokens": 260
+    },
+    {
+      "index": 4807,
+      "doc_id": "doc_02225",
+      "is_canary": false,
+      "generated_tokens": 260
+    },
+    {
+      "index": 5790,
+      "doc_id": "doc_03208",
+      "is_canary": false,
+      "generated_tokens": 260
+    },
+    {
+      "index": 6365,
+      "doc_id": "doc_03783",
+      "is_canary": false,
+      "generated_tokens": 260
+    },
+    {
+      "index": 7309,
+      "doc_id": "doc_04727",
+      "is_canary": false,
+      "generated_tokens": 260
+    }
+  ],
+  "repeated_identical_input_consistency": {
+    "pass": true,
+    "n_failures": 0,
+    "failure_doc_ids": []
+  },
+  "canary_survival": {
+    "n_canaries": 20,
+    "canaries_with_any_survival": 0,
+    "total_canary_rows": 425,
+    "survivor_rows": 0,
+    "by_n_reps": {
+      "1": {
+        "n_canaries": 5,
+        "canaries_with_any_survival": 0,
+        "total_rows": 5,
+        "survivor_rows": 0
+      },
+      "4": {
+        "n_canaries": 5,
+        "canaries_with_any_survival": 0,
+        "total_rows": 20,
+        "survivor_rows": 0
+      },
+      "16": {
+        "n_canaries": 5,
+        "canaries_with_any_survival": 0,
+        "total_rows": 80,
+        "survivor_rows": 0
+      },
+      "64": {
+        "n_canaries": 5,
+        "canaries_with_any_survival": 0,
+        "total_rows": 320,
+        "survivor_rows": 0
+      }
+    },
+    "per_canary": [
+      {
+        "canary_id": "canary_00",
+        "n_reps": 1,
+        "rows": 1,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_01",
+        "n_reps": 1,
+        "rows": 1,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_02",
+        "n_reps": 1,
+        "rows": 1,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_03",
+        "n_reps": 1,
+        "rows": 1,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_04",
+        "n_reps": 1,
+        "rows": 1,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_05",
+        "n_reps": 4,
+        "rows": 4,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_06",
+        "n_reps": 4,
+        "rows": 4,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_07",
+        "n_reps": 4,
+        "rows": 4,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_08",
+        "n_reps": 4,
+        "rows": 4,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_09",
+        "n_reps": 4,
+        "rows": 4,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_10",
+        "n_reps": 16,
+        "rows": 16,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_11",
+        "n_reps": 16,
+        "rows": 16,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_12",
+        "n_reps": 16,
+        "rows": 16,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_13",
+        "n_reps": 16,
+        "rows": 16,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_14",
+        "n_reps": 16,
+        "rows": 16,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_15",
+        "n_reps": 64,
+        "rows": 64,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_16",
+        "n_reps": 64,
+        "rows": 64,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_17",
+        "n_reps": 64,
+        "rows": 64,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_18",
+        "n_reps": 64,
+        "rows": 64,
+        "survivor_rows": 0,
+        "any_survival": false
+      },
+      {
+        "canary_id": "canary_19",
+        "n_reps": 64,
+        "rows": 64,
+        "survivor_rows": 0,
+        "any_survival": false
+      }
+    ]
+  },
+  "input_sha256": "9a385f55aadd328730923cbcca88428b9bf550f8bc26e726fb1f1ad5f8b27d29",
+  "output_sha256": "c8152f18cfbe9f1b5c4e7565e015711f4f558c92af7c90adcbdf0ebc749c57a6",
+  "wallclock_s": 2183.9908509259994
+}
